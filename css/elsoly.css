@@ -1210,6 +1210,11 @@ ul {
   background-color: var(--section-background-color);
   border: 1px solid #ddd;
 }
+@media (max-width: 991px) {
+  .videos .holder {
+    flex-direction: column;
+  }
+}
 .videos .holder .list {
   background-color: white;
   min-width: 300px;
